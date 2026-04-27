@@ -1,0 +1,375 @@
+﻿cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  AD.CPP
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  BATTLE.CPP
+  BNETLOGO.CPP
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  CACHE.CPP
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  CANCEL.CPP
+  CHATCHNL.CPP
+  CHATROOM.CPP
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  CLRPREF.CPP
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  COMBO.CPP
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  CONNECT.CPP
+  DISCONN.CPP
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  JOINGAME.CPP
+  LOGON.CPP
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  MESSAGE.CPP
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  PROGRESS.CPP
+  RASMGR.CPP
+cl : command line  warning D9035: option 'Zc:forScope-' has been deprecated and will be removed in a future release
+  SCRLLBAR.CPP
+  SPI.CPP
+  SRV.CPP
+  UI.CPP
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'BNETLOGO.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'BNETLOGO.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'BNETLOGO.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'BNETLOGO.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'BATTLE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'BATTLE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'BATTLE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'BATTLE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CACHE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CACHE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CACHE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CACHE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CLRPREF.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CLRPREF.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CLRPREF.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CLRPREF.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CACHE.CPP(230,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CACHE.CPP(537,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'AD.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'AD.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'AD.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'AD.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CONNECT.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CONNECT.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CONNECT.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CONNECT.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CANCEL.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CANCEL.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CANCEL.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CANCEL.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\AD.CPP(156,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CHATROOM.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CHATROOM.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CHATROOM.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\AD.CPP(190,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\AD.CPP(196,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CHATROOM.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'RASMGR.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'RASMGR.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'RASMGR.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'RASMGR.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\AD.CPP(394,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\AD.CPP(432,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'MESSAGE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'LOGON.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'MESSAGE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'LOGON.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'MESSAGE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'MESSAGE.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'LOGON.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'LOGON.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CHATCHNL.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CHATCHNL.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CHATCHNL.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'CHATCHNL.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'JOINGAME.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'JOINGAME.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'JOINGAME.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'JOINGAME.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'DISCONN.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'DISCONN.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'DISCONN.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'DISCONN.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'COMBO.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'COMBO.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'COMBO.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'COMBO.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(594,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(620,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(650,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(916,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(982,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1108,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1124,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1130,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1168,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1221,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1232,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1314,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1326,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1386,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1400,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1418,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1460,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1479,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1509,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1602,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATCHNL.CPP(98,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATCHNL.CPP(123,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATCHNL.CPP(144,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATCHNL.CPP(145,2): warning C4996: '_strlwr': This function or variable may be unsafe. Consider using _strlwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATCHNL.CPP(150,3): warning C4996: '_strlwr': This function or variable may be unsafe. Consider using _strlwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATCHNL.CPP(220,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATCHNL.CPP(239,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATROOM.CPP(1892,14): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATCHNL.CPP(316,6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\DISCONN.CPP(27,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\CHATCHNL.CPP(377,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SPI.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SPI.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SPI.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SPI.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SRV.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SRV.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SRV.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SRV.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SCRLLBAR.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SCRLLBAR.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SCRLLBAR.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SCRLLBAR.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\JOINGAME.CPP(181,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\JOINGAME.CPP(296,12): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\JOINGAME.CPP(305,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'PROGRESS.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'PROGRESS.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'PROGRESS.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'PROGRESS.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\JOINGAME.CPP(357,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\JOINGAME.CPP(429,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\LOGON.CPP(278,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\LOGON.CPP(299,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\LOGON.CPP(332,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SPI.CPP(98,20): warning C4996: 'GetVersion': was declared deprecated
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SPI.CPP(608,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SPI.CPP(609,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SPI.CPP(610,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(264,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(314,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(317,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(358,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(364,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\PROGRESS.CPP(296,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(470,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(472,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(475,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(481,20): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(494,16): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(521,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(526,22): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(539,18): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\H\storm.h(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'UI.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'UI.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'UI.CPP')
+  
+D:\projects\Hellfire\Storm\H\storm.h(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'UI.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(973,42): warning C4244: '=': conversion from 'time_t' to 'DWORD', possible loss of data
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(977,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(980,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1012,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1161,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1232,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1375,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1376,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1408,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1409,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1588,33): warning C4244: '=': conversion from 'unsigned long' to 'WORD', possible loss of data
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1759,7): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1763,7): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1894,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1896,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(1898,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(2156,7): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(2255,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(2298,31): warning C4244: '=': conversion from 'time_t' to 'DWORD', possible loss of data
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(2379,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(2381,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(2401,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(2403,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(2515,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(2517,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\BATTLE\SRV.CPP(2519,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     Creating library D:\projects\Hellfire\Storm\SOURCE\BATTLE\..\..\..\bin\battle.lib and object D:\projects\Hellfire\Storm\SOURCE\BATTLE\..\..\..\bin\battle.exp
+  battle.vcxproj -> D:\projects\Hellfire\bin\battle.snp
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

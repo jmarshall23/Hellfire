@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="FinalFinal|Win32">
+      <Configuration>FinalFinal</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shareware FinalFinal|Win32">
+      <Configuration>Shareware FinalFinal</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shareware Release|Win32">
+      <Configuration>Shareware Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <ProjectGuid>{9FCF8C06-5066-4B84-87E9-64036028A392}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shareware FinalFinal|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FinalFinal|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shareware Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shareware FinalFinal|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='FinalFinal|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shareware Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>18.0.11512.103</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shareware Release|Win32'">
+    <OutDir>.\SRel\</OutDir>
+    <IntDir>.\SRel\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\WinDebug\</OutDir>
+    <IntDir>.\WinDebug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FinalFinal|Win32'">
+    <OutDir>.\WinFinal\</OutDir>
+    <IntDir>.\WinFinal\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\WinRel\</OutDir>
+    <IntDir>.\WinRel\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shareware FinalFinal|Win32'">
+    <OutDir>.\SFinal\</OutDir>
+    <IntDir>.\SFinal\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shareware Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\SRel/Diablo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PROGRAM_VERSION=SHAREWARE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\SRel/Diablo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerOutput>All</AssemblerOutput>
+      <AssemblerListingLocation>.\SRel/</AssemblerListingLocation>
+      <ObjectFileName>.\SRel/</ObjectFileName>
+      <ProgramDataBaseFileName>.\SRel/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>FastCall</CallingConvention>
+      <ConformanceMode>false</ConformanceMode>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libcmt.lib;winmm.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\SRel/Diablo.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\SRel/Diablo.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>.\SRel/Diablo.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <IgnoreSpecificDefaultLibraries>libc.lib;</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\SRel/Diablo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\WinDebug/Diablo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PROGRAM_VERSION=RETAIL;DEBUG_MEM;_MULTITEST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeaderOutputFile>.\WinDebug/Diablo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerOutput>All</AssemblerOutput>
+      <AssemblerListingLocation>.\WinDebug/</AssemblerListingLocation>
+      <ObjectFileName>.\WinDebug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\WinDebug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>.\WinDebug/</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CallingConvention>FastCall</CallingConvention>
+      <ConformanceMode>false</ConformanceMode>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libcmt.lib;winmm.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>./bin/Hellfire.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\WinDebug/Hellfire.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>.\WinDebug/Hellfire.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <IgnoreSpecificDefaultLibraries>libc.lib;</IgnoreSpecificDefaultLibraries>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\WinDebug/Diablo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='FinalFinal|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\WinFinal/Diablo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROGRAM_VERSION=RETAIL;_MULTITEST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\WinFinal/Diablo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerOutput>All</AssemblerOutput>
+      <AssemblerListingLocation>.\WinFinal/</AssemblerListingLocation>
+      <ObjectFileName>.\WinFinal/</ObjectFileName>
+      <ProgramDataBaseFileName>.\WinFinal/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>FastCall</CallingConvention>
+      <ConformanceMode>false</ConformanceMode>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libcmt.lib;winmm.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\WinFinal/Hellfire.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <ProgramDatabaseFile>.\WinFinal/Hellfire.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>.\WinFinal/Hellfire.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <IgnoreSpecificDefaultLibraries>libc.lib;</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\WinFinal/Diablo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\WinRel/Diablo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PROGRAM_VERSION=RETAIL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\WinRel/Diablo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerOutput>All</AssemblerOutput>
+      <AssemblerListingLocation>.\WinRel/</AssemblerListingLocation>
+      <ObjectFileName>.\WinRel/</ObjectFileName>
+      <ProgramDataBaseFileName>.\WinRel/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <BrowseInformationFile>.\WinRel/</BrowseInformationFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>FastCall</CallingConvention>
+      <ConformanceMode>false</ConformanceMode>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libcmt.lib;winmm.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\WinRel/hellfire.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <ProgramDatabaseFile>.\WinRel/hellfire.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>.\WinRel/hellfire.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <IgnoreSpecificDefaultLibraries>libc.lib;</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\WinRel/Diablo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shareware FinalFinal|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\SFinal/Diablo.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROGRAM_VERSION=SHAREWARE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\SFinal/Diablo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerOutput>All</AssemblerOutput>
+      <AssemblerListingLocation>.\SFinal/</AssemblerListingLocation>
+      <ObjectFileName>.\SFinal/</ObjectFileName>
+      <ProgramDataBaseFileName>.\SFinal/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>FastCall</CallingConvention>
+      <ConformanceMode>false</ConformanceMode>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libcmt.lib;winmm.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\SFinal/Diablo.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <ProgramDatabaseFile>.\SFinal/Diablo.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>.\SFinal/Diablo.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <IgnoreSpecificDefaultLibraries>libc.lib;</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\SFinal/Diablo.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="appfat.cpp" />
+    <ClCompile Include="automap.cpp" />
+    <ClCompile Include="capture.cpp" />
+    <ClCompile Include="CODEC.CPP" />
+    <ClCompile Include="CONTROL.CPP" />
+    <ClCompile Include="CURSOR.CPP" />
+    <ClCompile Include="DEAD.CPP" />
+    <ClCompile Include="DEBUG.CPP" />
+    <ClCompile Include="DIABLO.CPP" />
+    <ClCompile Include="doom.cpp" />
+    <ClCompile Include="DRLG_L1.CPP" />
+    <ClCompile Include="DRLG_L2.CPP" />
+    <ClCompile Include="DRLG_L3.CPP" />
+    <ClCompile Include="drlg_l4.cpp" />
+    <ClCompile Include="dthread.cpp" />
+    <ClCompile Include="dx.cpp" />
+    <ClCompile Include="effects.cpp" />
+    <ClCompile Include="encrypt.cpp" />
+    <ClCompile Include="ENGINE.CPP" />
+    <ClCompile Include="error.cpp" />
+    <ClCompile Include="except.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
+    <ClCompile Include="GENDUNG.CPP" />
+    <ClCompile Include="gmenu.cpp" />
+    <ClCompile Include="help.cpp" />
+    <ClCompile Include="init.cpp" />
+    <ClCompile Include="Interfac.cpp" />
+    <ClCompile Include="inv.cpp" />
+    <ClCompile Include="itemdat.cpp" />
+    <ClCompile Include="ITEMS.CPP" />
+    <ClCompile Include="LIGHTING.CPP" />
+    <ClCompile Include="loadsave.cpp" />
+    <ClCompile Include="mainmenu.cpp" />
+    <ClCompile Include="minitext.cpp" />
+    <ClCompile Include="misdat.cpp" />
+    <ClCompile Include="MISSILES.CPP" />
+    <ClCompile Include="Mono.cpp" />
+    <ClCompile Include="MONSTDAT.CPP" />
+    <ClCompile Include="MONSTER.CPP" />
+    <ClCompile Include="movie.cpp" />
+    <ClCompile Include="mpqapi.cpp" />
+    <ClCompile Include="msg.cpp" />
+    <ClCompile Include="multi.cpp" />
+    <ClCompile Include="nthread.cpp" />
+    <ClCompile Include="objdat.cpp" />
+    <ClCompile Include="OBJECTS.CPP" />
+    <ClCompile Include="packplr.cpp" />
+    <ClCompile Include="PALETTE.CPP" />
+    <ClCompile Include="path.cpp" />
+    <ClCompile Include="pfile.cpp" />
+    <ClCompile Include="PLAYER.CPP" />
+    <ClCompile Include="plrmsg.cpp" />
+    <ClCompile Include="portal.cpp" />
+    <ClCompile Include="Quests.cpp" />
+    <ClCompile Include="SCROLLRT.CPP" />
+    <ClCompile Include="Scroll_asm.cpp" />
+    <ClCompile Include="SetMaps.cpp" />
+    <ClCompile Include="SHA.CPP" />
+    <ClCompile Include="SOUND.CPP" />
+    <ClCompile Include="Spelldat.cpp" />
+    <ClCompile Include="SPELLS.CPP" />
+    <ClCompile Include="stores.cpp" />
+    <ClCompile Include="sync.cpp" />
+    <ClCompile Include="Textdat.cpp" />
+    <ClCompile Include="themes.cpp" />
+    <ClCompile Include="tmsg.cpp" />
+    <ClCompile Include="TOWN.CPP" />
+    <ClCompile Include="towners.cpp" />
+    <ClCompile Include="track.cpp" />
+    <ClCompile Include="TRIGS.CPP" />
+    <ClCompile Include="wave.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ddraw.lib" />
+    <Library Include="dsound.lib" />
+    <Library Include="implode.lib" />
+    <Library Include="WinDebug\hellfrui.lib" />
+    <Library Include="WinDebug\storm.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="diablo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="automap.h" />
+    <ClInclude Include="Control.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="d3dtypes.h" />
+    <ClInclude Include="Ddraw.h" />
+    <ClInclude Include="Dead.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Diablo.h" />
+    <ClInclude Include="Diabloui.h" />
+    <ClInclude Include="doom.h" />
+    <ClInclude Include="Drlg_l1.h" />
+    <ClInclude Include="Drlg_l2.h" />
+    <ClInclude Include="Drlg_l3.h" />
+    <ClInclude Include="Drlg_l4.h" />
+    <ClInclude Include="Dsound.h" />
+    <ClInclude Include="Effects.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="error.h" />
+    <ClInclude Include="Gamemenu.h" />
+    <ClInclude Include="Gendung.h" />
+    <ClInclude Include="help.h" />
+    <ClInclude Include="implode.h" />
+    <ClInclude Include="Interfac.h" />
+    <ClInclude Include="Inv.h" />
+    <ClInclude Include="itemdat.h" />
+    <ClInclude Include="Items.h" />
+    <ClInclude Include="Lighting.h" />
+    <ClInclude Include="mainmenu.h" />
+    <ClInclude Include="MiniText.h" />
+    <ClInclude Include="misdat.h" />
+    <ClInclude Include="Missiles.h" />
+    <ClInclude Include="Mono.h" />
+    <ClInclude Include="Monstdat.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="monstint.h" />
+    <ClInclude Include="mpqapi.h" />
+    <ClInclude Include="msg.h" />
+    <ClInclude Include="Multi.h" />
+    <ClInclude Include="objdat.h" />
+    <ClInclude Include="Objects.h" />
+    <ClInclude Include="packplr.h" />
+    <ClInclude Include="Palette.h" />
+    <ClInclude Include="path.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="portal.h" />
+    <ClInclude Include="Quests.h" />
+    <ClInclude Include="regconst.h" />
+    <ClInclude Include="Sclass.h" />
+    <ClInclude Include="scrlasm.h" />
+    <ClInclude Include="Scrollrt.h" />
+    <ClInclude Include="Setmaps.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="spelldat.h" />
+    <ClInclude Include="Spells.h" />
+    <ClInclude Include="stores.h" />
+    <ClInclude Include="Storm.h" />
+    <ClInclude Include="textdat.h" />
+    <ClInclude Include="themes.h" />
+    <ClInclude Include="Town.h" />
+    <ClInclude Include="towners.h" />
+    <ClInclude Include="Trigs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Storm\SOURCE\BATTLE\battle.vcxproj">
+      <Project>{b4e1febb-c3bf-3a04-7233-143b85e3413e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Storm\SOURCE\STANDARD\Standard.vcxproj">
+      <Project>{ab148fbe-6646-95e7-67e4-1c1a8173d447}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Storm\stormdll.vcxproj">
+      <Project>{43dd7e96-bf0f-4e3b-85f4-1eeafa46583a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Uisrc\UI\ui.vcxproj">
+      <Project>{9b22cb13-a1a2-4701-80f8-718408af0348}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

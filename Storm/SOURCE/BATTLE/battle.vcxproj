@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Battle</ProjectName>
+    <RootNamespace>battle</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{B4E1FEBB-C3BF-3A04-7233-143B85E3413E}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir>$(ProjectDir)..\..\..\bin\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\</IntDir>
+    <TargetName>battle</TargetName>
+    <TargetExt>.snp</TargetExt>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BATTLE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCH.H</PrecompiledHeaderFile>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>BATTLE.DEF</ModuleDefinitionFile>
+      <AdditionalDependencies>wsock32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;BATTLE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>PCH.H</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>BATTLE.DEF</ModuleDefinitionFile>
+      <AdditionalDependencies>wsock32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BATTLE.H" />
+    <ClInclude Include="BNETART.H" />
+    <ClInclude Include="CHAT.H" />
+    <ClInclude Include="PCH.H" />
+    <ClInclude Include="RASMGR.H" />
+    <ClInclude Include="RESOURCE.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AD.CPP" />
+    <ClCompile Include="BATTLE.CPP" />
+    <ClCompile Include="BNETLOGO.CPP" />
+    <ClCompile Include="CACHE.CPP" />
+    <ClCompile Include="CANCEL.CPP" />
+    <ClCompile Include="CHATCHNL.CPP" />
+    <ClCompile Include="CHATROOM.CPP" />
+    <ClCompile Include="CLRPREF.CPP" />
+    <ClCompile Include="COMBO.CPP" />
+    <ClCompile Include="CONNECT.CPP" />
+    <ClCompile Include="DISCONN.CPP" />
+    <ClCompile Include="JOINGAME.CPP" />
+    <ClCompile Include="LOGON.CPP" />
+    <ClCompile Include="MESSAGE.CPP" />
+    <ClCompile Include="PROGRESS.CPP" />
+    <ClCompile Include="RASMGR.CPP" />
+    <ClCompile Include="SCRLLBAR.CPP" />
+    <ClCompile Include="SPI.CPP" />
+    <ClCompile Include="SRV.CPP" />
+    <ClCompile Include="UI.CPP" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BATTLE.RC" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BATTLE.CS" />
+    <None Include="BATTLE.DEF" />
+    <None Include="CAPS.DAT" />
+    <None Include="CAPS.MPQ" />
+    <None Include="CHATHELP.TXT" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\stormdll.vcxproj">
+      <Project>{43dd7e96-bf0f-4e3b-85f4-1eeafa46583a}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

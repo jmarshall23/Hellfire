@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2413cebf-405b-4df3-9d37-e58f6e124cd8}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{45ef023c-9782-4dbd-a75a-fe9bed767db8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d731d199-8659-414d-b22d-53f7bf5718f6}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="appfat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="automap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="capture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CODEC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CONTROL.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CURSOR.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DEAD.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DEBUG.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DIABLO.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="doom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DRLG_L1.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DRLG_L2.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DRLG_L3.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drlg_l4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="effects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="encrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ENGINE.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="except.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GENDUNG.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="help.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itemdat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ITEMS.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LIGHTING.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loadsave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="minitext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="misdat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MISSILES.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mono.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MONSTDAT.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MONSTER.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="movie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpqapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objdat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJECTS.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="packplr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PALETTE.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAYER.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plrmsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="portal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCROLLRT.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetMaps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SHA.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SOUND.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spelldat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SPELLS.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stores.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sync.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Textdat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="themes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tmsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TOWN.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="towners.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="track.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TRIGS.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scroll_asm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ddraw.lib">
+      <Filter>Source Files</Filter>
+    </Library>
+    <Library Include="dsound.lib">
+      <Filter>Source Files</Filter>
+    </Library>
+    <Library Include="WinDebug\hellfrui.lib">
+      <Filter>Source Files</Filter>
+    </Library>
+    <Library Include="implode.lib">
+      <Filter>Source Files</Filter>
+    </Library>
+    <Library Include="WinDebug\storm.lib">
+      <Filter>Source Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="diablo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="misdat.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="automap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ddraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Diablo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Diabloui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="doom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drlg_l1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drlg_l2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drlg_l3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drlg_l4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dsound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamemenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gendung.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="help.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="implode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="itemdat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lighting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mainmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Missiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mono.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Monstdat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monstint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpqapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="msg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Multi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objdat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packplr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Palette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="portal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="regconst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scrlasm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scrollrt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Setmaps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spelldat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spells.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stores.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Storm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textdat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="themes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="towners.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

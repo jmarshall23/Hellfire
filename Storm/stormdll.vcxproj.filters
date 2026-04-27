@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{f916e068-d065-4d1c-ac83-07ac036e87d1}</UniqueIdentifier>
+      <Extensions>.cpp</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{cccabf07-098a-48f9-927b-2b15020af66c}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="h">
+      <UniqueIdentifier>{5d611d0f-929d-421f-8199-f84167f5481e}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Sblt.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sbmp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scmd.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scode.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scomp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sdlg.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sdraw.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Serr.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sevt.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sfile.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sgdi.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Slog.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Smem.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SMsg.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Snet.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sreg.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Srgn.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Srtl.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sstr.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Storm.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\STrans.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Svid.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Storm.rc">
+      <Filter>source</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Pch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SIntern.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Bnetart.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Storm.h">
+      <Filter>h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Source\Exports.def">
+      <Filter>source</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

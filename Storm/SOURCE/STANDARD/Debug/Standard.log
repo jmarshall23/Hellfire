@@ -1,0 +1,122 @@
+﻿  IPX.CPP
+D:\projects\Hellfire\Storm\H\STORM.H(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'IPX.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'IPX.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'IPX.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'IPX.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\IPX.CPP(276,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\IPX.CPP(280,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\IPX.CPP(702,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\IPX.CPP(725,11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\IPX.CPP(1035,20): warning C4996: 'GetVersion': was declared deprecated
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\IPX.CPP(1244,41): warning C4267: '=': conversion from 'size_t' to 'WORD', possible loss of data
+  MODEM.CPP
+D:\projects\Hellfire\Storm\H\STORM.H(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'MODEM.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'MODEM.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'MODEM.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'MODEM.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\MODEM.CPP(373,87): warning C4244: '=': conversion from 'unsigned long' to 'BYTE', possible loss of data
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\MODEM.CPP(497,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\MODEM.CPP(498,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\MODEM.CPP(1236,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\MODEM.CPP(1588,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\MODEM.CPP(2123,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\MODEM.CPP(2124,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  NULL.CPP
+D:\projects\Hellfire\Storm\H\STORM.H(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'NULL.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'NULL.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'NULL.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'NULL.CPP')
+  
+  PERF.CPP
+D:\projects\Hellfire\Storm\H\STORM.H(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'PERF.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'PERF.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'PERF.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'PERF.CPP')
+  
+  SERIAL.CPP
+D:\projects\Hellfire\Storm\H\STORM.H(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SERIAL.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SERIAL.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SERIAL.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SERIAL.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\SERIAL.CPP(333,15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\SERIAL.CPP(334,15): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\SERIAL.CPP(408,87): warning C4244: '=': conversion from 'unsigned long' to 'BYTE', possible loss of data
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\SERIAL.CPP(955,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\SERIAL.CPP(956,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\SERIAL.CPP(962,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\SERIAL.CPP(963,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  STANDARD.CPP
+D:\projects\Hellfire\Storm\H\STORM.H(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SOURCE/STANDARD/STANDARD.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SOURCE/STANDARD/STANDARD.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SOURCE/STANDARD/STANDARD.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SOURCE/STANDARD/STANDARD.CPP')
+  
+  TRACE.CPP
+D:\projects\Hellfire\Storm\H\STORM.H(970,21): warning C4595: 'operator delete': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SOURCE/STANDARD/TRACE.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(975,23): warning C4595: 'operator new': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SOURCE/STANDARD/TRACE.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(981,21): warning C4595: 'operator delete[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SOURCE/STANDARD/TRACE.CPP')
+  
+D:\projects\Hellfire\Storm\H\STORM.H(986,23): warning C4595: 'operator new[]': non-member operator new or delete functions may not be declared inline
+  (compiling source file 'SOURCE/STANDARD/TRACE.CPP')
+  
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\TRACE.CPP(36,18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\TRACE.CPP(73,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\TRACE.CPP(76,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\TRACE.CPP(109,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\TRACE.CPP(112,3): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Storm\SOURCE\STANDARD\TRACE.CPP(114,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+     Creating library D:\projects\Hellfire\Storm\SOURCE\STANDARD\..\..\..\bin\Standard.lib and object D:\projects\Hellfire\Storm\SOURCE\STANDARD\..\..\..\bin\Standard.exp
+  Standard.vcxproj -> D:\projects\Hellfire\bin\Standard.snp
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
