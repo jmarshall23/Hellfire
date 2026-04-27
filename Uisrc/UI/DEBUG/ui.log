@@ -1,0 +1,123 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  UiSnd.cpp
+  Title.cpp
+  Support.cpp
+  SelYesNo.cpp
+  SelModem.cpp
+  SelLoad.cpp
+D:\projects\Hellfire\Uisrc\UI\SelModem.cpp(130,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelModem.cpp(131,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SelList.cpp
+  SelIPX.cpp
+D:\projects\Hellfire\Uisrc\UI\SelIPX.cpp(181,9): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelIPX.cpp(256,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelIPX.cpp(257,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelIPX.cpp(338,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelIPX.cpp(869,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SelHero.cpp
+D:\projects\Hellfire\Uisrc\UI\SelHero.cpp(364,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelHero.cpp(417,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelHero.cpp(418,2): warning C4996: '_strlwr': This function or variable may be unsafe. Consider using _strlwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelHero.cpp(423,3): warning C4996: '_strlwr': This function or variable may be unsafe. Consider using _strlwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelHero.cpp(509,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelHero.cpp(935,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelHero.cpp(1021,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelHero.cpp(1063,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SelGame.cpp
+  SelDial.cpp
+D:\projects\Hellfire\Uisrc\UI\SelDial.cpp(291,6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SelConn.cpp
+D:\projects\Hellfire\Uisrc\UI\SelConn.cpp(156,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\SelConn.cpp(157,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SelClass.cpp
+  Sbar.cpp
+  Progress.cpp
+  OkCancel.cpp
+  ModmStat.cpp
+D:\projects\Hellfire\Uisrc\UI\ModmStat.cpp(193,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Modem.cpp
+D:\projects\Hellfire\Uisrc\UI\Modem.cpp(153,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\Modem.cpp(154,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MainMenu.cpp
+D:\projects\Hellfire\Uisrc\UI\MainMenu.cpp(349,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Logon.cpp
+  Generating Code...
+  Compiling...
+  local.cpp
+D:\projects\Hellfire\Uisrc\UI\local.cpp(535,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Focus.cpp
+  Fade.cpp
+  EntrName.cpp
+  EntrDial.cpp
+  Doom.cpp
+  disclaim.cpp
+  DirLink.cpp
+D:\projects\Hellfire\Uisrc\UI\DirLink.cpp(111,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\DirLink.cpp(112,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Diabloui.cpp
+  DiabEdit.cpp
+D:\projects\Hellfire\Uisrc\UI\DiabEdit.cpp(171,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  credits.cpp
+  CreaHero.cpp
+  CreaDung.cpp
+D:\projects\Hellfire\Uisrc\UI\CreaDung.cpp(184,48): warning C4244: '=': conversion from 'LONG' to 'BYTE', possible loss of data
+D:\projects\Hellfire\Uisrc\UI\CreaDung.cpp(196,51): warning C4244: '=': conversion from 'LONG' to 'BYTE', possible loss of data
+D:\projects\Hellfire\Uisrc\UI\CreaDung.cpp(241,53): warning C4244: '=': conversion from 'LONG' to 'BYTE', possible loss of data
+  cr8game.cpp
+D:\projects\Hellfire\Uisrc\UI\cr8game.cpp(244,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\cr8game.cpp(267,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\cr8game.cpp(323,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CopyProt.cpp
+  connect.cpp
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(238,31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(240,34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(241,34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(243,36): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(244,39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(246,35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(247,32): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(248,43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(249,33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(250,36): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(251,35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(253,32): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(254,31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(255,31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(256,31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(258,40): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(259,37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(261,45): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(267,31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(272,31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(280,31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(281,33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(283,35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(284,34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(286,33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(288,32): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(289,31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(290,31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(291,31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(293,39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(294,35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(295,39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(297,35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(298,32): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(299,30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(502,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(655,16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(664,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(871,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(977,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(979,3): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(1004,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(1065,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\projects\Hellfire\Uisrc\UI\connect.cpp(1085,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  artfont.cpp
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1415,5): warning MSB8012: TargetPath(D:\projects\Hellfire\Uisrc\UI\debug\ui.dll) does not match the Linker's OutputFile property value (D:\projects\Hellfire\bin\hellfrui.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1417,5): warning MSB8012: TargetName(ui) does not match the Linker's OutputFile property value (hellfrui). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library .\debug/hellfrui.lib and object .\debug/hellfrui.exp
+  ui.vcxproj -> D:\projects\Hellfire\Uisrc\UI\debug\ui.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
